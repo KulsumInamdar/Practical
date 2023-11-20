@@ -1,5 +1,6 @@
-
-/*contract StudentData
+//SPDX-License-Identifier: Unlicensed
+pragma solidity >=0.8.0;
+contract StudentData
  {
     struct Student 
     {
@@ -39,4 +40,3 @@
         addStudent(1, "Default Student", 20);
     }
 }
-*/
